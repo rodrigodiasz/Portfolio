@@ -17,7 +17,7 @@ const ShowcaseSection = () => {
       project2Ref.current,
       project3Ref.current,
     ];
-    
+
     projects.forEach((card, index) => {
       gsap.fromTo(
         card,
@@ -30,10 +30,10 @@ const ShowcaseSection = () => {
           opacity: 1,
           duration: 1,
           delay: 0.3 * (index + 1),
-          scrollTrigger:{
+          scrollTrigger: {
             trigger: card,
-            start: "top bottom-=100"
-          }
+            start: "top bottom-=100",
+          },
         }
       );
     });
@@ -54,12 +54,12 @@ const ShowcaseSection = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Mande Simple with a Powerful, User-Friendly App
-                called Ryde
+                AI Interviews Made Easy with a Smart, Voice-Driven App called
+                Prepwise Built with Next.js, Firebase & TailwindCSS for a fast,
+                interactive, and seamless experience.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+              A web app built with Next.js, Firebase & TailwindCSS for a fast, intuitive, and AI-powered experience.
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ const ShowcaseSection = () => {
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" alt="YC Directory" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Ristorante - Management System</h2>
             </div>
           </div>
         </div>

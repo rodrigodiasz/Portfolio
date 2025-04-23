@@ -11,10 +11,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 const words = [
@@ -95,16 +95,16 @@ const techStackImgs = [
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "NextJS Developer",
+    imgPath: "/images/logos/next.svg",
   },
   {
     name: "Backend Developer",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "TailwindCSS Developer",
+    imgPath: "/images/logos/tailwindcss-original.svg",
   },
   {
     name: "Project Manager",
@@ -147,39 +147,15 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Rodrigo interned with us for two years, taking on various tasks and assisting in the day-to-day activities of the Central Bank's web team. During his internship, he proved to be helpful, attentive, and quick to learn new tasks.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "Dezember 2022 - Dezember 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
-  {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed and maintained user-facing features for the BCB website.",
+      "Bug Fixing and Applying Clean Code",
+      "Development of the New Intranet Prototype",
     ],
   },
 ];
@@ -246,20 +222,14 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
-  {
     name: "linkedin",
+    url: "https://www.linkedin.com/in/rodrigo-oliveira-aa4525236",
     imgPath: "/images/linkedin.png",
+  },
+  {
+    name: "github",
+    url: "https://github.com/rodrigodiasz",
+    imgPath: "/images/github-original.svg",
   },
 ];
 
