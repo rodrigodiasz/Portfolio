@@ -15,19 +15,17 @@ const HeroExperience = () => {
     <Canvas frameloop="demand" camera={{ position: [0, 0, 15], fov: 45 }}>
       <ambientLight intensity={0.2} color="#1a1a40" />
       <OrbitControls
-        enablePan={false} 
-        enableZoom={!isTablet} 
-        maxDistance={20} 
-        minDistance={5} 
-        minPolarAngle={Math.PI / 5} 
-        maxPolarAngle={Math.PI / 2} 
+        enablePan={false}
+        enableZoom={!isTablet}
+        maxDistance={20}
+        minDistance={5}
+        minPolarAngle={Math.PI / 5}
+        maxPolarAngle={Math.PI / 2}
       />
 
       <Suspense fallback={null}>
         <HeroLights />
-        {isMobile || isTablet && (
-          <Particles count={100} />
-        )}
+        {(isMobile || isTablet) && <Particles count={100} />}
         <group
           scale={isMobile ? 0.7 : 1}
           position={[0, -3.5, 0]}
