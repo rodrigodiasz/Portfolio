@@ -23,7 +23,6 @@ export function Room(props) {
 
   return (
     <group {...props} dispose={null}>
-      {(isMobile || isTablet) && (
         <EffectComposer multisampling={0}>
           <SelectiveBloom
             selection={screensRef}
@@ -33,7 +32,6 @@ export function Room(props) {
             blendFunction={BlendFunction.ADD}
           />
         </EffectComposer>
-      )}
 
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={curtainMaterial} />
       <mesh geometry={nodes.body1_blinn1_0.geometry} material={bodyMaterial} />
